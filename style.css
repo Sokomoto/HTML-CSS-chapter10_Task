@@ -62,11 +62,15 @@ main{
 
 @media screen and (max-width:768px){
 	main{
-		width:60%;
+		width:90%;
+		margin: 0 auto;
+		padding-left:17%;
+		padding-right:17%;
 	}
 	.step{
 		width:100%;
-		margin:0 auto;
+		margin-top:50px;
+
 	}
 	.step:nth-child(2){
 		width:100%;
@@ -75,6 +79,8 @@ main{
 	}
 	.step:nth-child(3){
 		width:100%;
+		margin-top:0px;
+		margin-bottom:50px;
 	}
 	.title{
 		width: 100%
